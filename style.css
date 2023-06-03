@@ -1,0 +1,74 @@
+.popup {
+  position: fixed;
+  top : 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background :rgba(0, 0 , 0, 1);
+  padding : 50%;
+}
+
+.hide {
+  display: none;
+}
+
+.custom-alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.custom-alert .alert-box {
+  width: 500px;
+  padding: 10px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  text-align: center;
+}
+
+body {
+  font-size: .85em;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+  background-color: #f8f8f8;
+  color: #f8f8f8;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: #f8f8f8;
+  text-shadow: 3px 3px 5px #a0a8aF;
+}
+
+.container {
+  width: 412px;
+  margin: 50px auto;
+  align-items: center;
+}
+
+.description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tetrisCanvas {
+  box-shadow: 3px 3px 5px #a0a8aF;
+  outline: none;
+}
+
+.replay-btn {
+  background-color: rgba(255, 255, 255, 0.836);
+  font-size: 15px;
+  padding: 14px 30px;
+  cursor: pointer;
+}

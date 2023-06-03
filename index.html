@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >TETRIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="popup">
+      <img src = "Tetris_logo.png" width="800px">
+    </div>
+    </div>
+    <div class="container">
+      <div id="endGameAlert" class="custom-alert" style="display: none;">
+        <div class="alert-box">
+            <h1 style="color:rgb(0, 0, 0);">Game Over</h1>
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+            <img src = "quangcao.jpg" width="500px"></a>
+            <button class="replay-btn" onclick="restartGame()">Replay</button>
+        </div>
+      </div>
+      <h1>TETRIS</h1>
+      <div id="canvasTetris"></div>
+      <div class="description">
+        &#8592; &#8593; &#8594; &#8595; to move, P to pause
+        <br/> Speed increases every 500 earned score points
+        <br/> Click to play <br/>
+      </div>
+    </div>
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
